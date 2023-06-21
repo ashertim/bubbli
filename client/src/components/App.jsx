@@ -13,11 +13,9 @@ function App() {
 
   return (
     <Router>
-        <div>
-            <Routes>
-                <Route path="/bubbli" element={<Home/>} />
-            </Routes>
-        </div>
+        <Routes>
+            <Route path="/bubbli" element={<Home/>} />
+        </Routes>
     </Router>
   )
 }

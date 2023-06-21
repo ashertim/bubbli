@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    gap: 0.5em;
+}

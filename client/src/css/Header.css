@@ -6,8 +6,11 @@
 }
 
 #title-slogan {
-    flex: 30%;
-    padding: 1em;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    gap: 0.5em;
+    padding-right: 2.5em;
 }
 
 .text-logo {
@@ -23,7 +26,14 @@
     flex: 70%;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    align-items: end;
+    padding-right: 1em;
+    gap: 0.5em;
+}
+
+#header-utility-buttons {
+    display: flex;
+    gap: 0.5em;
 }
 
 form {
@@ -36,4 +46,5 @@ form {
     color: var(--primary-color);
     border: 2px solid var(--primary-color);
     border-radius: 10px;
+    width: 20vw;
 }

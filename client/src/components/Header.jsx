@@ -8,16 +8,21 @@ function Header() {
                 <a className="text-logo" href="./index.html">
                     BUBBLI
                 </a>
-                <h3>The Wine Dictionary</h3>
+                <h3>The Wine <br></br> Dictionary</h3>
             </section>
 
             <section id="header-utility">
-                <button className="primary-button" href="#">
-                    Login
-                </button>
+                <div id="header-utility-buttons">
+                    <button id="favorites" className="primary-button">
+                        <i className="fa-solid fa-star"></i> Favorites
+                    </button>
+                    <button id="login" className="primary-button" href="#">
+                        <i className="fa-solid fa-user"></i> Login
+                    </button>
+                </div>
 
                 <form id="search" action="#">
-                    <input type="text" className="search-bar" />
+                    <input type="text" className="search-bar" placeholder="Search by wine name" />
                     <button type="submit" className="secondary-button"><i className="fa-solid fa-magnifying-glass"></i></button>
                 </form>
             </section>

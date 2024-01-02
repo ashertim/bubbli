@@ -1,0 +1,90 @@
+/* Wine Card */
+.wine-card {
+    position: relative;
+    width: 825px;
+    height: 200px;
+
+    background: rgba(199, 181, 200, 0.56);
+}
+
+
+/* Rectangle 5 */
+.wine-label-picture {
+    position: absolute;
+    width: 163px;
+    height: 174px;
+    left: 13px;
+    top: 12px;
+
+    background: #FFFBFF;
+}
+
+
+/* Wine Label */
+.wine-label-text {
+    position: absolute;
+    width: 65px;
+    height: 57px;
+    left: 62px;
+    top: 71px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+
+/* Wine Name | Vineyard/Winemaker | Vintage Wine Type (Red, White, Blend) Region Sweet/Dry User Rating (5 stars?) */
+.wine-info-text {
+    position: absolute;
+    width: 385px;
+    height: 174px;
+    left: 195px;
+    top: 12px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+
+
+/* Rectangle 6 */
+.wine-review {
+    position: absolute;
+    width: 237px;
+    height: 200px;
+    left: 588px;
+    top: 0px;
+
+    background: rgba(199, 181, 200, 0.56);
+}
+
+
+/* Top User Review Username, Rating Review (cut off with ...) */
+.wine-review-text {
+    position: absolute;
+    width: 225px;
+    height: 182px;
+    left: 600px;
+    top: 12px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #000000;
+}
+

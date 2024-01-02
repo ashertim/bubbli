@@ -1,13 +1,12 @@
 // import { useState } from 'react'
 import '../css/Header.css'
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
         <div className="header dark-background">
             <section id="title-slogan">
-                <a className="text-logo" href="./index.html">
-                    BUBBLI
-                </a>
+                <Link to='/bubbli' className='text-logo'>BUBBLI</Link>
                 <h3>The Wine <br></br> Dictionary</h3>
             </section>
 
